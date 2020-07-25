@@ -1,7 +1,13 @@
 # rollup-typescript-issue
 
 This issue makes no sense.
-Just clone the repository and run `npm run build` or `npx rollup -c`.
+
+### Repro:
+
+- Clone this
+- `npm i`
+- `npm run build` or `npx rollup -c`
+
 You should read [rollup.config.js](./rollup.config.js) to make sure there's
 nothing bad in there first, though.
 
