@@ -26,3 +26,11 @@ src\main.ts (1:11)
               ^
 2: console.log(hello);
 ```
+
+### Fix:
+
+Alright looks like I found the culprit.
+
+It was `"outDir": "dist"` under `compilerOptions` in `tsconfig.json`.
+
+This issue **still** makes no sense but I've solved it.
